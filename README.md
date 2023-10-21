@@ -15,8 +15,9 @@
             ```
             document.getElementById('demo').innerHTML = 'Hello JavaScript';
             ```
-
     - JavaScript Can Change HTML Attribute Value
+        - В этом примере JavaScript изменяет значение атрибута src (source) тега
+            <img>:
     - JavaScript Can Change HTML Style (CSS)
     - JavaScript Can Hide HTML Elements
     - JavaScript Can Show HTML Elements
