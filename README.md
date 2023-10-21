@@ -17,7 +17,7 @@
             ```
     - JavaScript Can Change HTML Attribute Value
         - В этом примере JavaScript изменяет значение атрибута src (source) тега
-            <img>:
+            ```<img>```:
     - JavaScript Can Change HTML Style (CSS)
     - JavaScript Can Hide HTML Elements
     - JavaScript Can Show HTML Elements
