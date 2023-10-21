@@ -3,7 +3,7 @@
 - JS HOME
 - JS Introduction
     - JavaScript Can Change HTML Content
-        - Одним из многих HTML-методов JavaScript является getElementById(). В
+    - Одним из многих HTML-методов JavaScript является getElementById(). В
         приведенном ниже примере "находит" элемент HTML (с id="demo") и
         изменяется содержимое элемента (innerHTML) на "Hello JavaScript":
         > Example
