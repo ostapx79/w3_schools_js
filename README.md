@@ -7,11 +7,13 @@
             приведенном ниже примере "находит" элемент HTML (с id="demo") и
             изменяется содержимое элемента (innerHTML) на "Hello JavaScript":
             > Example
+            
             ```
             document.getElementById("demo").innerHTML = "Hello JavaScript";
             ```
         - JavaScript принимает как двойные, так и одинарные кавычки:
             > Example
+
             ```
             document.getElementById('demo').innerHTML = 'Hello JavaScript';
             ```
@@ -19,6 +21,7 @@
         - В этом примере JavaScript изменяет значение атрибута src (source) тега
             `<img>`:
             > Example
+
             ```
             <button
             onclick="document.getElementById('myImage').src='images/pic_bulgon.gif'">
@@ -31,5 +34,11 @@
             </button>
             ```
     - JavaScript Can Change HTML Style (CSS)
+        - Изменение стиля элемента HTML - это вариант изменения атрибута HTML:
+            > Example
+
+            '''
+            document.getElementById('id').style.fontSize = '35px';
+            '''
     - JavaScript Can Hide HTML Elements
     - JavaScript Can Show HTML Elements
