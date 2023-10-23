@@ -37,4 +37,15 @@
             document.getElementById('id').style.fontSize = '35px';
             ```
     - JavaScript Can Hide HTML Elements
+        - Скрыть HTML-элементы можно, изменив стиль отображения:
+            > Example
+            ```
+            document.getElementById('demo').style.display = 'none';
+            ```
     - JavaScript Can Show HTML Elements
+        - Отобразить скрытые элементы HTML также можно, изменив стиль
+            отображения:
+            > Example
+            ```
+            document.getElementById('demo').style.display = 'block';
+            ```
