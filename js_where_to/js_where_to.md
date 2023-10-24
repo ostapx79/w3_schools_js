@@ -9,5 +9,5 @@
         </script>
         ```
         > Старые примеры JavaScript могут использовать атрибут типа:
-        > ```<script type="text/javascript">.``` Атрибут типа не является
+        > ```<script type="text/javascript">```. Атрибут типа не является
         > обязательным. JavaScript - это язык сценариев по умолчанию в HTML.
