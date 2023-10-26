@@ -16,3 +16,29 @@
             выполнять при "вызове".
         - Например, функция можно вызвать, когда происходит событие, например,
             когда пользователь нажимает кнопку.
+    - JavaScript in `<head>` or `<body>`
+        - В HTML документ можно разместить любое количества скриптов.
+        - Скрипты можно размещать в разделе `<body>`, `<head>` HTML-страницы или
+            в обоих разделах.
+    - JavaScript in `<head>`
+        - В этом примере функция JavaScript размещается в раздел `<head>`
+            HTML-страницы.
+        - Функция вызывается (вызывается) при нажатии кнопки:
+        > Example
+        ```
+        <!DOCTYPE html>
+        <html lang="ru">
+        <head>
+            <script>
+                function myFunction() {
+                    document.getElementById("demo").innerHTML = "Paragraph changed.";
+                }
+            </script>
+        </head>
+        <body>
+            <h2>Demo JavaScript in Head</h2>
+            <p id="demo">A Paragraph</p>
+            <button type="button" onclick="myFunction()">Try it</button>
+        </body>
+        </html>
+        ```
